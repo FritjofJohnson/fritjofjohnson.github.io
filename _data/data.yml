@@ -10,11 +10,11 @@ sidebar:
     # Profile information
     name: Fritjof Johnson
     tagline: Paramedic and Fulltime Computer Science student
-    avatar: headshot.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: Headshot.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: Fjjohnso@cougarnet.uh.edu
-    phone: Please email me
+    phone:
     timezone: America/Central # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
     website: https://www.uh.edu/nsm/computer-science/ # Include the full website URL, including "http://" or "https://".
@@ -45,10 +45,10 @@ sidebar:
         - item: Weight lifting
           link:
 
-        - item: Snowboarding
+        - item: Cooking
           link:
 
-        - item: Cooking
+        - item: Eating
           link:
 
 career-profile:
@@ -70,7 +70,8 @@ education:
         time: 2018-2020
   
 experiences:
-    title: Please see my resume for my experience 
+    title: <a href="https://github.com/FritjofJohnson/Resume/blob/main/Fritjof_Johnson_Resume.pdf" target="_blank">Here is a link to my resume</a>
+
 
 certifications:
       title: Certifications
