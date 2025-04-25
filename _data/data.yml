@@ -103,6 +103,15 @@ skills:
       - name: HTML/CSS
         level: 25%
 
+projects:
+  title: Portfolio
+  intro: >
+    Below is a portfolio of my work thus far. I will be adding more projects as I progress through my studies.
+  assignments:
+    - title: User Management System
+      video: "https://www.youtube.com/embed/RSW39DPXX4g"
+      repo: "https://github.com/Itaho/Project-01-COSC4353"
+      tagline: Developed a role-based user management system with hierarchical access control, automated PDF form generation, approval chains, and a built-in user reporting module using Flask, MySQL, and LaTeX.
 
 footer: >
    

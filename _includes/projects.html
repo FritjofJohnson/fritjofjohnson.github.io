@@ -17,22 +17,26 @@
   {% endif %}
 
   {% for project in projects.assignments %}
-    <div class="item">
+  <div class="item">
+    <span class="project-title">
+      {{ project.title }}
+    </span>
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
+    {% if project.tagline %}
+    <p class="project-tagline">{{ project.tagline }}</p>
+    {% endif %}
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+    {% if project.video %}
+    <div class="video-container" style="margin-top: 10px;">
+      <iframe width="560" height="315" src="{{ project.video }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
 
-    </div><!--//item-->
-  {% endfor %}
+    {% if project.repo %}
+    <p><a href="{{ project.repo }}" target="_blank">View Code on GitHub</a></p>
+    {% endif %}
+  </div><!--//item-->
+{% endfor %}
 
 </section><!--//section-->
 {% endif %}
